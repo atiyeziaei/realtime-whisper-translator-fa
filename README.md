@@ -52,7 +52,7 @@ pip install -r ../requirements.txt
 python -m uvicorn main:app --reload --port 3000
 
 
-### 2. Frontend Setup
+2. Frontend Setup
 cd frontend
 npm install
 # Ensure frontend runs on a different port to avoid conflict
