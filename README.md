@@ -63,10 +63,10 @@ $env:PORT=3001; npm start  # Windows PowerShell
 ### 🛠️ Configuration
 You can adjust the following parameters in backend/main.py:
 
-# model_size: e.g., "base", "small", "medium"
-# device: "cuda" or "cpu"
-# compute_type: "float16" (for GPU) or "int8" (for CPU)
+- model_size: e.g., "base", "small", "medium"
+- device: "cuda" or "cpu"
+- compute_type: "float16" (for GPU) or "int8" (for CPU)
 
 ### 🤝 Contact
-Atiye Ziaei - https://www.linkedin.com/in/atiyeziaei/
-Project Link: https://github.com/atiyeziaei/realtime-whisper-translator-fa/
+- Atiye Ziaei - https://www.linkedin.com/in/atiyeziaei/
+- Project Link: https://github.com/atiyeziaei/realtime-whisper-translator-fa/
