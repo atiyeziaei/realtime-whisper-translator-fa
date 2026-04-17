@@ -50,23 +50,23 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r ../requirements.txt
 # Run the server on port 3000
 python -m uvicorn main:app --reload --port 3000
+```
 
-
-2. Frontend Setup
+### 2. Frontend Setup
+```bash
 cd frontend
 npm install
 # Ensure frontend runs on a different port to avoid conflict
 $env:PORT=3001; npm start  # Windows PowerShell
+```
 
-🛠️ Configuration
+### 🛠️ Configuration
 You can adjust the following parameters in backend/main.py:
 
-model_size: e.g., "base", "small", "medium"
+# model_size: e.g., "base", "small", "medium"
+# device: "cuda" or "cpu"
+# compute_type: "float16" (for GPU) or "int8" (for CPU)
 
-device: "cuda" or "cpu"
-
-compute_type: "float16" (for GPU) or "int8" (for CPU)
-
-🤝 Contact
-Atiye Ziaei - (https://www.linkedin.com/in/atiyeziaei/)
-Project Link: https://github.com/your-username/your-repo-name
+### 🤝 Contact
+Atiye Ziaei - https://www.linkedin.com/in/atiyeziaei/
+Project Link: https://github.com/atiyeziaei/realtime-whisper-translator-fa/
